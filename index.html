@@ -5,11 +5,15 @@
     <title>Chinmay Kanpara</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <script src="https://kit.fontawesome.com/320f551013.js" crossorigin="anonymous"></script>
-    <!-- font awesome -->
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
     <!-- main css -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    
+    <link rel="stylesheet" type="text/css" href="css/style-switcher.css">
+    <link rel="stylesheet" type="text/css" href="css/skins/color-1.css">
+    <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1">
+    <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
     </head>
     <body>
         <header class="header">
@@ -456,6 +460,61 @@
                 </div>
             </div>
         </section>
+
+        <footer class="footer">
+            <div class="footer_bg">
+                <div class="footer_container container grid">
+                    <div>
+                        <h1 class="footer_title">Chinmay Kanpara</h1>
+                        <span class="footer_subtitle">IT Student</span>
+                    </div>
+
+                    <ul class="footer_links">
+                        <li>
+                            <a href="#services" class="footer_link">Services</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="footer_link">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#contactme" class="footer_link">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer_socials">
+                        <a href="https://www.linkedin.com/in/neha-thakkar-785a901b8/" target="_blank" class="footer_social">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/NehaThakkar25" target="_blank" class="footer_social"> 
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://twitter.com/NehaTha20818801" target="_blank" class="footer_social">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <p class="footer_copy">&copy; 2021 Developed by: <a href="https://nehathakkar25.github.io/MyPortfolio/">NehaThakkar</a></p>
+            </div>
+        </footer>
+
+        <div class="style-switcher outer-shadow">
+            <div class="style-switcher-toggler s-icon outer-shadow hover-in-shadow">
+                <i class="fas fa-cog fa-spin"></i>
+            </div>
+            <div class="day-night s-icon outer-shadow hover-in-shadow">
+                <i class="fas fa-moon"></i>
+            </div>
+
+            <h4>Theme Colors</h4>
+            <div class="colors">
+                <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+                <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+                <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+                <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+                <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+            </div>
+        </div>
 
     <!-- main js -->
     <script src="js/main.js"></script>

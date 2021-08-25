@@ -54,6 +54,8 @@
                     })
                     fadeOutEffect();
                 }
+
+                window.location.hash = hash;
             }
         }
         else{
