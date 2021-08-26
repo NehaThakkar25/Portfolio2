@@ -1162,8 +1162,9 @@ img{
 
 /* contact section */
 .contact-section{
-    padding: 80px 0 80px;
+    padding: 100px 0 80px;
     max-height: 100vh;
+    height: 75vh;
 }
 
 .contact-section .contact-item{
@@ -1185,7 +1186,7 @@ img{
 
 .contact-section .contact-item-inner span{
     display: block;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     color: var(--text-black-600);
     margin: 10px 0 5px;
@@ -1193,7 +1194,7 @@ img{
 
 .contact-section .contact-item-inner span a{
     color: var(--text-black-600);
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
 }
 .grid{
@@ -1204,6 +1205,8 @@ img{
 .container{
     max-width: 768px;
 }
+
+/* footer section */
 
 .footer{
     padding-top: 2rem;
